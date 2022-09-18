@@ -1,0 +1,18 @@
+# ルートパスで記述
+ErrorDocument 404 /404.php
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^ http://%1%{REQUEST_URI} [L,R=301]
+
+
+# AccessControl referer
+SetEnvIf Referer "^http://icd10kensakukun\.com" chk_url
+SetEnvIf Referer "^https://icd10kensakukun\.com" chk_url
+
+
+<Files ~ "\.db$">
+deny from all
+</Files>

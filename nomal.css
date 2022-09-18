@@ -1,0 +1,168 @@
+/*HistryButton*/
+
+.button04 a {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 50%;
+    color: #2285b1;
+    font-size: 18px;
+    font-weight: 700;
+    border: 3px solid #a0c4d3;
+    border-radius: 10px;
+  }
+  
+  
+  .button04 a:hover {
+    color: #333333;
+    text-decoration: none;
+    background-color: #a0c4d3;
+  }
+  
+  .button04 a:hover::after {
+    border-top: 3px solid #333333;
+    border-right: 3px solid #333333;
+  }
+
+/**/
+
+span.logo {
+    font-size: 2rem;
+}
+.no-wrap {
+    display: inline-block; /* インラインブロック化 */
+}
+.center {
+    text-align: center;
+}
+
+.button01 {
+    display: inline-block;
+    font-size: 200%;
+    width: 130px;
+    height: 70px;
+    line-height: 70px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    background-color: #259203;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.button01:hover {
+    background-color: #33f521;
+    /*ボタン色*/
+}
+
+.button02 {
+    font-size: 200%;
+    width: 130px;
+    height: 70px;
+    line-height: 70px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    background-color: #259203;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.button02:hover {
+    background-color: #33f521;
+    /*ボタン色*/
+}
+
+.button03 {
+    -webkit-appearance: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    /* 背景色を濃い青色に指定 */
+    background-color: #259203;
+    /* 文字色を白色に指定 */
+    color: #fff;
+}
+
+.button03:hover {
+    background-color: #33f521;
+    /*ボタン色*/
+}
+
+input {
+    text-align: center;
+}
+
+.under {
+    background: linear-gradient(transparent 50%, #d2f3b6 50%);
+}
+
+.spikes {
+    position: relative;
+    background: #d2f3b6;
+    height: 600px;
+}
+
+.spikes::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 20px;
+    background-size: 20px 100%;
+    background-image: linear-gradient(135deg, #d2f3b6 25%, transparent 25%), linear-gradient(225deg, #d2f3b6 25%, transparent 25%);
+    background-position: 0 0;
+}
+
+::placeholder {
+    font-size: 80%;
+    color: #000;
+}
+
+.btn-border {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid #9ec34b;
+    font-size: 16px;
+    color: #9ec34b;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+}
+
+.btn-border:hover {
+    background-color: #9ec34b;
+    border-color: #cbe585;
+    color: #FFF;
+}
+
+.back {
+    position: relative;
+    border-radius: 20px;
+    width: 200px;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #259203;
+}
+
+.back:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+
+
+#####basicauth#####
+AuthUserFile "/home/ryuseidb/icd10kensakukun.com/htpasswd/log/.htpasswd"
+AuthName "Member Site"
+AuthType BASIC
+require valid-user
+#####end:basicauth#####
