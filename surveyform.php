@@ -12,7 +12,7 @@ header('Content-Type: text/html; charset=UTF-8');
             <a href="./index.php" class="back">　　もどる　　</a>
         </div>
         <br>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdin1virUHkyY8PibYaYTAWvCpHRwMmVPXPoN_4uAy2RR4a-w/viewform?embedded=true" width="100%" height="90%" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        <iframe src="YOUR GOOGLE FORM URL" width="100%" height="90%" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
         <div style="text-align: center">
         </div>
 
